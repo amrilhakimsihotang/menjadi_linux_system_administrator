@@ -1,0 +1,48 @@
+Feb 16 13:21:47 srv systemd[1]: Starting OpenBSD Secure Shell server...
+Feb 16 13:21:47 srv sshd[1380]: Server listening on 0.0.0.0 port 22.
+Feb 16 13:21:47 srv sshd[1380]: Server listening on :: port 22.
+Feb 16 13:21:47 srv systemd[1]: Started OpenBSD Secure Shell server.
+Feb 16 13:21:48 srv sshd[1380]: Received signal 15; terminating.
+Feb 16 13:21:48 srv systemd[1]: Stopping OpenBSD Secure Shell server...
+Feb 16 13:21:48 srv systemd[1]: ssh.service: Deactivated successfully.
+Feb 16 13:21:48 srv systemd[1]: Stopped OpenBSD Secure Shell server.
+Feb 16 13:21:48 srv systemd[1]: Starting OpenBSD Secure Shell server...
+Feb 16 13:21:48 srv sshd[1387]: Server listening on 0.0.0.0 port 22.
+Feb 16 13:21:48 srv sshd[1387]: Server listening on :: port 22.
+Feb 16 13:21:48 srv systemd[1]: Started OpenBSD Secure Shell server.
+Feb 16 13:27:22 srv systemd[1]: Stopping OpenBSD Secure Shell server...
+Feb 16 13:27:22 srv sshd[1387]: Received signal 15; terminating.
+Feb 16 13:27:22 srv systemd[1]: ssh.service: Deactivated successfully.
+Feb 16 13:27:22 srv systemd[1]: Stopped OpenBSD Secure Shell server.
+Feb 16 13:27:23 srv systemd[1]: Starting OpenBSD Secure Shell server...
+Feb 16 13:27:23 srv sshd[16682]: Server listening on 0.0.0.0 port 22.
+Feb 16 13:27:23 srv sshd[16682]: Server listening on :: port 22.
+Feb 16 13:27:23 srv systemd[1]: Started OpenBSD Secure Shell server.
+Feb 16 13:30:41 srv sshd[16682]: Received signal 15; terminating.
+Feb 16 13:30:41 srv systemd[1]: Stopping OpenBSD Secure Shell server...
+Feb 16 13:30:41 srv systemd[1]: ssh.service: Deactivated successfully.
+Feb 16 13:30:41 srv systemd[1]: Stopped OpenBSD Secure Shell server.
+-- Boot 03b96cde14e347d8ba7d09ef27f6482c --
+Feb 16 13:31:24 srv systemd[1]: Starting OpenBSD Secure Shell server...
+Feb 16 13:31:24 srv sshd[685]: Server listening on 0.0.0.0 port 22.
+Feb 16 13:31:24 srv sshd[685]: Server listening on :: port 22.
+Feb 16 13:31:24 srv systemd[1]: Started OpenBSD Secure Shell server.
+Feb 16 13:34:55 srv sshd[990]: Accepted password for dicoding from 127.0.0.1 port 44764 ssh2
+Feb 16 13:34:55 srv sshd[990]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)
+Feb 16 13:36:05 srv sshd[1100]: Connection closed by authenticating user dicoding 127.0.0.1 port 46028 [preauth]
+Feb 16 13:36:05 srv sshd[1107]: Connection closed by authenticating user dicoding 127.0.0.1 port 46044 [preauth]
+Feb 16 13:36:09 srv sshd[1120]: Accepted password for dicoding from 127.0.0.1 port 46050 ssh2
+Feb 16 13:36:09 srv sshd[1120]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)
+Feb 16 13:36:09 srv sshd[1120]: pam_unix(sshd:session): session closed for user dicoding
+Feb 16 13:36:23 srv sshd[1198]: Accepted publickey for dicoding from 127.0.0.1 port 49232 ssh2: RSA SHA256:b1hUKSCWiXkZXPLVZ+5Lu7AYHrXA7cxjGxLlK2PF96o
+Feb 16 13:36:23 srv sshd[1198]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)
+Feb 16 13:38:12 srv sshd[685]: Received signal 15; terminating.
+Feb 16 13:38:12 srv systemd[1]: Stopping OpenBSD Secure Shell server...
+Feb 16 13:38:12 srv systemd[1]: ssh.service: Deactivated successfully.
+Feb 16 13:38:12 srv systemd[1]: Stopped OpenBSD Secure Shell server.
+Feb 16 13:38:12 srv systemd[1]: Starting OpenBSD Secure Shell server...
+Feb 16 13:38:12 srv sshd[1285]: Server listening on 0.0.0.0 port 2000.
+Feb 16 13:38:12 srv sshd[1285]: Server listening on :: port 2000.
+Feb 16 13:38:12 srv systemd[1]: Started OpenBSD Secure Shell server.
+Feb 16 13:38:26 srv sshd[1287]: Accepted publickey for dicoding from 127.0.0.1 port 43562 ssh2: RSA SHA256:b1hUKSCWiXkZXPLVZ+5Lu7AYHrXA7cxjGxLlK2PF96o
+Feb 16 13:38:26 srv sshd[1287]: pam_unix(sshd:session): session opened for user dicoding(uid=1001) by (uid=0)
